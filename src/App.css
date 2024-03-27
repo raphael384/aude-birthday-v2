@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    white-space: normal;
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.title {
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.main-text {
+    margin-top: 10px;
+    text-indent: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+
+.btn {
+    background-color: #df2e8f;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+    animation: animation 0.4s;
+}
+
+@keyframes animation {
+    0% {
+        transform: scaleX(1);
+        border-radius: 7px;
+    }
+    50% {
+        transform: scaleX(0.95);
+        border-radius: 100px;
+    }
+    100% {
+        transform: scaleX(1);
+        border-radius: 7px;
+    }
+
+}
+
+.powered {
+    font-size: 9px;
+    position: relative;
+    left: 12px;
+}
+
+
+a {
+    color: black;
+}
+
+
+.log-container {
+    background-color: #ffd0eada;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.log-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #df2e8f;
+    color: white;
+    width: 210px;
+    padding: 10px;
+    /* padding-bottom: 6px;I */
+    border-radius: 14px;
+}
+
+.pwd-input {
+    margin-top: 6px; 
+    outline: none;
+    border: none; 
+    border-radius: 6px;  
+    padding: 3px;
+    padding-left: 6px;
+    color: #8f0f55;
+}
+
+.pwd-input:active {
+    margin-top: 4px;   
+    outline-width: none; 
+}
+
+.invited {
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0.9;
+}
+
+
+
